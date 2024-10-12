@@ -1,31 +1,10 @@
-# AI Engineering template
+## Introduction
+This repository consists of scripts for the paper [Can Machine Unlearning Reduce Social Bias in Language Models?](https://openreview.net/pdf?id=UBX8SCj6rK) [To be published to EMNLP 2024 Industry Track].
 
-----------------------------------------------------------------------------------------
-
-[![code checks](https://github.com/VectorInstitute/aieng-template/actions/workflows/code_checks.yml/badge.svg)](https://github.com/VectorInstitute/aieng-template/actions/workflows/code_checks.yml)
-[![integration tests](https://github.com/VectorInstitute/aieng-template/actions/workflows/integration_tests.yml/badge.svg)](https://github.com/VectorInstitute/aieng-template/actions/workflows/integration_tests.yml)
-[![docs](https://github.com/VectorInstitute/aieng-template/actions/workflows/docs_deploy.yml/badge.svg)](https://github.com/VectorInstitute/aieng-template/actions/workflows/docs_deploy.yml)
-[![codecov](https://codecov.io/gh/VectorInstitute/aieng-template/branch/main/graph/badge.svg)](https://codecov.io/gh/VectorInstitute/aieng-template)
-[![license](https://img.shields.io/github/license/VectorInstitute/aieng-template.svg)](https://github.com/VectorInstitute/aieng-template/blob/main/LICENSE.md)
-
-A template repo for AI Engineering projects (using ``python``)
-
-## 🧑🏿‍💻 Developing
-
-### Installing dependencies
-
-The development environment can be set up using
-[poetry](https://python-poetry.org/docs/#installation). Hence, make sure it is
-installed and then run:
-
+## Running scripts
+1. Install required packages:
 ```bash
-python3 -m poetry install
-source $(poetry env info --path)/bin/activate
+python -m pip install -r requirements.txt
 ```
 
-In order to install dependencies for testing (codestyle, unit tests, integration tests),
-run:
-
-```bash
-python3 -m poetry install --with test
-```
+2. Instructions for running scripts are available in the respective directories for each method.
