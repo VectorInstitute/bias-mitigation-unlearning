@@ -1,6 +1,7 @@
 ### Download data
-[BBQ Data](https://github.com/nyu-mll/BBQ/tree/main/data): Script to download the data is provided [Add link].
-[StereoSet Data](https://github.com/moinnadeem/StereoSet/tree/master/data): Script to prepare the data is provided [Add link].
+[BBQ Data](https://github.com/nyu-mll/BBQ/tree/main/data): Script to download the data is provided [here](pcgu/download_bbq.sh).
+
+[StereoSet Data](https://github.com/moinnadeem/StereoSet/tree/master/data): Script to prepare the data is provided [here](pcgu/data/prepare_ss.py).
 
 ### Run PCGU
 ```bash
