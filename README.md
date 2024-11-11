@@ -1,5 +1,5 @@
 ## Introduction
-This repository consists of scripts for the paper [Can Machine Unlearning Reduce Social Bias in Language Models?](https://openreview.net/pdf?id=UBX8SCj6rK) [To be published to EMNLP 2024 Industry Track].
+This repository adopts 2 machine unlearning based methods: **Negation via Task Vectors** and **PCGU**, for mitigating social biases in language models. Our paper [Can Machine Unlearning Reduce Social Bias in Language Models?](https://aclanthology.org/2024.emnlp-industry.71/) has been published in the Industry Track of EMNLP 2024.
 
 ## Running scripts
 1. Install required packages:
